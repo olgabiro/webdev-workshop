@@ -115,6 +115,15 @@ div#structure {
     background-size: cover;
 }
 
+div#structure h2 {
+    background-color:  rgba(197, 198, 182, 0.7);
+    padding: 0.2em;
+    padding-left: 5em;
+    padding-right: 1em;
+    left: -1em;
+    position: inherit;
+}
+
 div#tag-structure {
     margin-left: 5em;
 }
