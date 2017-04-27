@@ -1,0 +1,40 @@
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+img {
+    width: 114px;
+    float: left;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+div#about {
+    font-size: larger;
+    margin-left: 10em;
+    margin-right: 5em;
+    text-align: justify;
+}
+
+div#cities>div {
+    float: left;
+    margin-right: 2em;
+    width: 7em;
+}
+
+div#cities {
+    float: none;
+    overflow: hidden;
+    margin-left: 10em;
+    font-size: larger;
+}
+
+div#cities ul {
+    list-style-type: none;
+    padding: 0;
+}
