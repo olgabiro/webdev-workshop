@@ -14,7 +14,6 @@ $(document).ready(function () {
     
     var width = window.outerWidth;
     var height = window.outerHeight;
-    console.log("width:", width, "height: ", height);
     $(".step").css("width", width).css("height", height).css("padding", "0 100");
     
     $(document).on('impress:stepactivate', function (event) {

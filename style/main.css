@@ -57,6 +57,10 @@ div, p, canvas, i, em {
   margin-right: auto;
 }
 
+.note {
+    font-size: 1em;
+}
+
 .step {
   padding: 40px 140px;
   font-size: 48px;
@@ -124,30 +128,22 @@ div#structure h2 {
     position: inherit;
 }
 
-div#tag-structure {
+div#useful-tags {
+    text-align: left;
     margin-left: 5em;
+    margin-top: -1em;
 }
 
-div#tag-attributes {
-    padding-left: 7em;
-    margin-top: -2.75em;    
-}
-
-div#tag-attributes p {
+div#useful-tags p {
     margin: 0;
 }
 
-p#dots {
-    padding-left: 3em;
-    padding-bottom: 0.5em;
-}
-
-div#useful-tags {
+div#tag-attributes {
     text-align: left;
     margin-left: 5em;
 }
 
-div#useful-tags p {
+div#tag-attributes p {
     margin: 0;
 }
 
@@ -191,19 +187,27 @@ div#css-rules p {
     margin-left: 8em;
 }
 
-div#id-class {
-    margin-left: 1em;
+div#css-rules p.attribute {
+    margin-left: 9.5em;
 }
 
-div#id-class p {
-    margin: 0;
-    text-align: left;
-    margin-right: 2em;
-    margin-bottom: 1.5em;
-    float: left;
+p#dots {
+    width: 412px;
+    height: 94px;
+    background-image: radial-gradient(circle at center, #3c3530 3px, transparent 5px);
+    background-size: 370px 34px;
 }
 
-div#id-class p#class {
+table#id-class {
+    margin-left: 4.5em;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table#id-class th, table#id-class td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 15px;
     width: 9em;
 }
 
@@ -272,6 +276,10 @@ div#other-attributes p {
     text-align: left;
 }
 
+div#floating h2 {
+    margin-top: 3em;
+}
+
 div#adding-css p {
     margin: 0;
     margin-left: 5em;
@@ -304,6 +312,15 @@ div#javascript1 h2 {
 
 div#javascript2 h2 {
     margin-top: 3em;
+}
+
+div#adding-js p {
+    text-align: left;
+    margin-left: 5em;
+}
+
+div#adding-js p i {
+    margin-right: 0.5em;
 }
 
 div#what-else h2 {

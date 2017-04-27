@@ -46,30 +46,18 @@
             <div class="step center-text">
                 <h2>HTML</h2>
                 <p>HyperText Markup Language</p>
-            </div>
-            
-            <div class="step center-text">
-                <h2>HTML</h2>
-                <p>not a programming language!</p>
+                <p class="note">(not a programming language!)</p>
             </div>
             
             <div class="step center-text">
                 <h2>HTML</h2>
                 <p>should not define style</p>
-                <p>(its main purpose is structure)</p>
+                <p class="note">(its main purpose is structure)</p>
             </div>
             
-            <div class="step">
-                <div id="tag-structure" class="center-block">
-                    <h2>structure of a tag</h2>
-                    <p>&lt;tag-name</p>
-                    <div id="tag-attributes">
-                        <p>attribute=value</p>
-                        <p id="dots">...</p>
-                        <p>attribute=value></p>
-                    </div>
-                    <p>&lt;/tag-name></p>
-                </div>
+            <div class="step center-text">
+                <h2>structure of a tag</h2>
+                <p>&lt;<em>tag-name</em> attribute="value">&lt;/<em>tag-name</em>></p>
             </div>
 
             <div class="step center-text">
@@ -79,14 +67,23 @@
                     <p><em>h1, h2, ... </em>&ndash; headers</p>
                     <p><em>img</em> &ndash; images</p>
                     <p><em>a</em> &ndash; anchors (links)</p>
+                    <p><em>ul, li</em> &ndash; unordered lists</p>
                     <p><em>span, div</em> &ndash; all-purpose containers</p>
                 </div>
-                
-                
+            </div>
+            
+            <div class="step center-text">
+                <h2>popular attributes</h2>
+                <div id="tag-attributes">
+                    <p><em>id</em> &ndash; identifier</p>
+                    <p><em>class</em></p>
+                    <p><em>src</em> &ndash; source URL</p>
+                    <p><em>href</em> &ndash; hypertext reference (link address)</p>
+                </div>
             </div>
             
             <div id="developer-tools" class="step center-text">
-                <h2>web developer tools</h2>
+                <h2>inspector tools</h2>
             </div>
 
             <div class="step exercises center-text">
@@ -105,9 +102,9 @@
             <div id="css-rules" class="step center-text">
                 <h2>CSS rules</h2>
                 <p>selector {</p>
-                <p>attribute: value;</p>
-                <p> .... </p>
-                <p>attribute: value;</p>
+                <p class="attribute">attribute: value;</p>
+                <p id="dots"></p>
+                <p class="attribute">attribute: value;</p>
                 <p>}</p>
             </div>
 
@@ -118,12 +115,20 @@
 
             <div class="step center-text">
                 <h2>CSS selectors - id/class</h2>
-                <div id="id-class">
-                    <p><em>id</em> = unique element</p>
-                    <p>#id-name { ... }</p>
-                    <p id="class"><em>class</em> = may apply to several elements</p>
-                    <p>.class-name { ... }</p>
-                </div>
+                    <table id="id-class">
+                        <tr>
+                            <th>id</th>
+                            <th>class</th>
+                        </tr>
+                        <tr>
+                            <td>unique element</td>
+                            <td>may apply to several elements</td>
+                        </tr>
+                        <tr>
+                            <td>#id-name { ... }</td>
+                            <td>.class-name { ... }</td>
+                        </tr>
+                    </table>
             </div>            
 
             <div id="text-attributes" class="step center-text">
@@ -151,7 +156,7 @@
             
             <div id="units" class="step center-text">
                 <h2>units</h2>
-                <p><em>1%</em> &ndash; relative to the size of the screen</p>
+                <p><em>1%</em> &ndash; relative to the size of the container</p>
                 <p><em>1em</em> &ndash; relative to the font size</p>
                 <p><em>1px</em> &ndash; absolute, one pixel</p>
             </div>
@@ -164,6 +169,10 @@
                 <p>padding: top right bottom left</p>
                 <p>width</p>
                 <p>height</p>
+            </div>
+            
+            <div id="floating" class="step center-text">
+                <h2>floating</h2>
             </div>
 
             <div id="adding-css" class="step center-text">
@@ -193,6 +202,12 @@
             <div class="step center-text">
                 <h2>some useful functions</h2>
                 <p>TODO: what we'll use</p>
+            </div>
+            
+            <div id="adding-js" class="step center-text">
+                <h2>how to add a js script</h2>
+                <p><i class="fa fa-bolt" aria-hidden="true"></i>script in &lt;script> tag</p>
+                <p><i class="fa fa-bolt" aria-hidden="true"></i>script in a separate file</p>
             </div>
 
             <div class="step exercises center-text">
