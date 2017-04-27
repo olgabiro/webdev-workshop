@@ -1,3 +1,9 @@
+body {
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: beige;
+}
+
 h1 {
     font-size: 4em;
     text-align: center;
@@ -12,6 +18,8 @@ img {
     margin-right: 2em;
     margin-left: 2em;
     margin-top: 2em;
+    border: 1px solid lightgray;
+    border-radius: 2px;
 }
 
 div#about {
@@ -23,18 +31,57 @@ div#about {
 
 div#cities>div {
     float: left;
-    margin-right: 2em;
-    width: 7em;
+    margin-right: 1em;
 }
 
 div#cities {
     float: none;
     overflow: hidden;
-    margin-left: 10em;
+    margin-left: 15em;
+    margin-top: 2em;
+    margin-bottom: 2em;
     font-size: larger;
+}
+
+div#europe {
+    width: 24em;
+}
+
+div#north-america {
+    width: 7em;
 }
 
 div#cities ul {
     list-style-type: none;
     padding: 0;
+    margin: 0;
+}
+
+div#europe li {
+    float: left;
+    padding-right: 1em;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button#dark {
+    background: dimgrey;
+    color: aliceblue;
+}
+
+.light {
+    background-color: beige;
+    color: black;
+}
+
+.dark {
+    background-color: gray;
+    color: azure;
 }
