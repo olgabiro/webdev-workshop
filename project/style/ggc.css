@@ -1,7 +1,7 @@
 body {
+    background-color: beige;
     margin-left: 3em;
     margin-right: 3em;
-    background-color: beige;
 }
 
 h1 {
@@ -14,52 +14,53 @@ h1 {
 
 img {
     width: 114px;
-    float: left;
-    margin-right: 2em;
     margin-left: 2em;
     margin-top: 2em;
     border: 1px solid lightgray;
     border-radius: 2px;
+    float: left;
 }
 
-div#about {
+#about {
     font-size: larger;
     margin-left: 10em;
     margin-right: 5em;
+    margin-bottom: 0;
     text-align: justify;
 }
 
-div#cities>div {
-    float: left;
-    margin-right: 1em;
-}
-
-div#cities {
-    float: none;
-    overflow: hidden;
+#cities {
     margin-left: 15em;
+    margin-right: 12em;
     margin-top: 2em;
     margin-bottom: 2em;
     font-size: larger;
+    float: left;
 }
 
-div#europe {
-    width: 24em;
-}
-
-div#north-america {
+#north-america {
     width: 7em;
+    float: left;
 }
 
-div#cities ul {
+#europe {
+    width: 24em;
+    float: left;
+}
+
+#asia {
+    float: left;
+}
+
+#cities ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-div#europe li {
-    float: left;
+#europe li {
     padding-right: 1em;
+    float: left;
 }
 
 button {

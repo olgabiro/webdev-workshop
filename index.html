@@ -57,17 +57,18 @@
             
             <div class="step center-text">
                 <h2>structure of a tag</h2>
-                <p>&lt;<em>tag-name</em> attribute="value">&lt;/<em>tag-name</em>></p>
+                <p>&lt;<em>tag-name</em> attribute="value"> ... &lt;/<em>tag-name</em>></p>
             </div>
 
             <div class="step center-text">
                 <h2>most useful tags</h2>
                 <div id="useful-tags">
                     <p><em>p</em> &ndash; paragraph (of text)</p>
-                    <p><em>h1, h2, ... </em>&ndash; headers</p>
+                    <p><em>h1, h2, ... </em>&ndash; headings</p>
                     <p><em>img</em> &ndash; images</p>
                     <p><em>a</em> &ndash; anchors (links)</p>
                     <p><em>ul, li</em> &ndash; unordered lists</p>
+                    <p><em>button</em> &ndash; buttons</p>
                     <p><em>span, div</em> &ndash; all-purpose containers</p>
                 </div>
             </div>
@@ -88,6 +89,15 @@
 
             <div class="step exercises center-text">
                 <h2>EXERCISES</h2>
+                <ol id="html-exercises">
+                    <li>Create an empty website</li>
+                    <li>Add a &lt;h1> element with your name</li>
+                    <li>Add an image</li>
+                    <li>Add a paragraph with a couple words about yourself</li>
+                    <li>Add a &lt;h2> element that says "hobbies"</li>
+                    <li>Create an unordered list with your hobbies</li>
+                    <li>Create 2 buttons</li>
+                </ol>
             </div>
 
             <div id="style" class="step center-text">
@@ -129,7 +139,13 @@
                             <td>.class-name { ... }</td>
                         </tr>
                     </table>
-            </div>            
+            </div>
+            
+            <div id="contain-selectors" class="step center-text">
+                <p><em>selector selector</em> { ... } &ndash; all elements inside element</p>
+                <p> div p { ... } &ndash; all &lt;p> elements inside &lt;div> element </p>
+                
+            </div>
 
             <div id="text-attributes" class="step center-text">
                 <h2>text attributes</h2>
@@ -150,10 +166,6 @@
                 </div>
             </div>
             
-            <div id="inline-block" class="step center-text">
-                <h2>inline and block elements</h2>
-            </div>
-            
             <div id="units" class="step center-text">
                 <h2>units</h2>
                 <p><em>1%</em> &ndash; relative to the size of the container</p>
@@ -164,7 +176,7 @@
             <div id="other-attributes" class="step center-text">
                 <h2>other attributes</h2>
                 <p>background-color</p>
-                <p>border: top right bottom left</p>
+                <p>border: width style color</p>
                 <p>margin: top right bottom left</p>
                 <p>padding: top right bottom left</p>
                 <p>width</p>
@@ -184,6 +196,14 @@
 
             <div class="step exercises center-text">
                 <h2>EXERCISES</h2>
+                <ol id="css-exercises">
+                    <li>Change the background of &lt;body> to a color of your preference</li>
+                    <li>Change the size of text to 2em</li>
+                    <li>Add left and right margins</li>
+                    <li>Make the #about section float to the left</li>
+                    <li>Change the look of the buttons</li>
+                    <li>Play around to achieve the effect that you like</li>
+                </ol>
             </div>
 
             <div id="sprinkles" class="step center-text">
@@ -193,15 +213,28 @@
             <div id="javascript1" class="step center-text">
                 <h2>Javascript</h2>
                 <p>programming in a browser</p>
+                <p class="note">(Javascript &ne; Java)</p>
             </div>
 
             <div id="javascript2" class="step center-text">
-                <h2>Javascript != Java</h2>
+                <h2>operations</h2>
+                <p><em>var a = x;</em> &ndash; declare a variable with value x</p>
+                <p><em>a = b;</em> &ndash; assign value b to a</p>
+                <p><em>function (arguments) { ... }</em> &ndash; define a function</p>
+                <p><em>a.b();</em> &ndash; call function b on element a</p>
+            </div>
+            
+            <div id="javascript3" class="step center-text">
+                <h2>some useful variables</h2>
+                <p><em>document</em> &ndash; representation of the whole page</p>
+                <p><em>document.body</em> &ndash; body of the page</p>
+                <p><em>element.className</em> &ndash; value of the class attribute of the element</p>
             </div>
 
-            <div class="step center-text">
+            <div id="javascript4" class="step center-text">
                 <h2>some useful functions</h2>
-                <p>TODO: what we'll use</p>
+                <p>getElementById("id-name")</p>
+                <p>addEventListener(event, function)</p>
             </div>
             
             <div id="adding-js" class="step center-text">
@@ -212,6 +245,15 @@
 
             <div class="step exercises center-text">
                 <h2>EXERCISES</h2>
+                <ol id="js-exercises">
+                    <li>Create two empty CSS rules, each with a class selector (as shown in examples)</li>
+                    <li>Fill the rules so that they change background and text color</li>
+                    <li>Write a script that would apply the rules after clicking on each button by changing the class of &lt;body> element (as shown in examples)</li>
+                </ol>
+            </div>
+            
+            <div id="summary" class="step">
+                <h2>summary</h2>
             </div>
 
             <div class="step center-text">

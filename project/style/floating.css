@@ -1,0 +1,24 @@
+div {
+    font-size: 2em;
+    text-align: center;
+    width: 3em;
+    padding: 1em 0.5em;
+    margin: 0.2em;
+    border: 1px solid darkgray;
+}
+
+#box1 {
+    background-color: #DDD6F4
+}
+
+#box2 {
+    background-color: #F1845F
+}
+
+#box3 {
+    background-color: #D78ED0   
+}
+
+#box4 {
+    background-color: #CB4480
+}
