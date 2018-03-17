@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro to web development workshop exercise</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Ola Rosik-Rosińska</h1>
+	<img src="image.jpeg">
+	<p id="about">A fan of cats, cookies and programming.</p>
+	<h2>Hobbies</h2>
+	<ul>
+		<li>Reading books</li>
+		<li>Baking</li>
+		<li>Video games</li>
+		<li>Painting</li>
+		<li>Geek Girls Carrots</li>
+		<li>Beer</li>
+	</ul>
+	<button id="button1">Light theme</button>
+	<button id="button2">Dark theme</button>
+	<script type="text/javascript">
+		document.getElementById("button1").addEventListener("click", function(event) {
+			document.body.className = "light-theme";
+		});
+
+		document.getElementById("button2").addEventListener("click", function (event) {
+			document.body.className = "dark-theme";
+		});
+	</script>
+</body>
+</html>
