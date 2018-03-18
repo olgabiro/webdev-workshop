@@ -309,7 +309,7 @@ div#adding-css p i {
     margin-right: 0.5em;
 }
 
-ol#css-exercises {
+ol.css-exercises {
     font-size: 1em;
     margin-top: -1em;
     margin-left: 3em;
@@ -319,7 +319,7 @@ ol#css-exercises {
     
 }
 
-ol#css-exercises li {
+ol.css-exercises li {
     margin-bottom: 0.2em;
 }
 
@@ -359,12 +359,17 @@ div#adding-js p i {
     margin-right: 0.5em;
 }
 
-ol#js-exercises {
+ol.js-exercises {
     font-size: 1em;
     text-align: left;
     list-style-position: outside;
-    margin-left: 3em;
-    margin-right: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+ol.js-exercises span {
+    font-size: 0.75em;
+    font-style: italic;
 }
 
 div#summary {
